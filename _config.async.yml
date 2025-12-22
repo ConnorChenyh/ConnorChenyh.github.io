@@ -13,3 +13,34 @@ favicon:
   hidden: /images/singer.png
   show_text: Welcome back.
   hide_text: See you soon.
+
+user:
+  name: Connor Chen
+  first_name: Chen
+  last_name: Connor
+  email: cyhnmb@gmail.com
+  domain: https://connorchenyh.github.io
+  avatar: /images/avatar.jpg
+  description: This is my personal blog. I will share my thoughts and experiences here.
+
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/ConnorChenyh
+  typed_text_prefix: I'm a
+  typed_text: ["Java Developer", "Gym Beginner", "One Ok Rock Fan"]
+  info:
+    - key: Location
+      val: Hong Kong, China
+    - key: Birth
+      val: 2000-04
+
+footer:
+  powered:
+    enable: true
+  copyright_year: 2025
+  live_time:
+    enable: true
+    prefix: footer.tips
+    start_time: 12/21/2025 11:33:00

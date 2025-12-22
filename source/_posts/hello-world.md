@@ -1,5 +1,13 @@
 ---
-title: Hello World
+title: My Personal Resume
+keywords: admin-template,vue,element,后台模板
+cover: [/images/self_for_cover.jpg]
+sticky: 10
+banner:
+  type: img
+  bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg
+  banner_text: This is my resume! Check this out!
+toc: false # 无需显示目录
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
