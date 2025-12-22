@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Connor Chen
+subtitle: 'Personal Blog'
+description: 'A Java Developer''s Blog'
+keywords: 'Java, Spring Boot, Spring Cloud, Maven, Git, GitHub, Docker, Kubernetes'
+author: Connor Chen
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://connorchenyh.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
