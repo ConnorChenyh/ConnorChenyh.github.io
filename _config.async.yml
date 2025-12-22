@@ -14,6 +14,13 @@ favicon:
   show_text: Welcome back.
   hide_text: See you soon.
 
+banner:
+  index:
+    type: img
+    bgurl: '/images/banner.JPG'
+    banner_title: Sometimes ever,<br>sometimes never.
+    banner_text: Glad to meet you.
+
 user:
   name: Connor Chen
   first_name: Chen
