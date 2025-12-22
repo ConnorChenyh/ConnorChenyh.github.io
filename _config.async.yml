@@ -1,0 +1,7 @@
+theme:
+  switch: true
+  default: auto
+
+language: en
+
+logo: /images/singer.png
