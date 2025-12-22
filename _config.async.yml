@@ -4,4 +4,12 @@ theme:
 
 language: en
 
-logo: /images/singer.png
+favicon:
+  logo: /images/singer.png
+  dark_logo: /images/singer.png
+  icon16: /images/singer.png
+  icon32: /images/singer.png
+  visibilitychange: true
+  hidden: /images/singer.png
+  show_text: Welcome back.
+  hide_text: See you soon.
