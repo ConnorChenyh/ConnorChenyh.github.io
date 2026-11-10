@@ -26,8 +26,9 @@ installed Chromium executable. Linux CI installs Chromium and its OS dependencie
 - Project overview: `source/projects/index.md`
 - Site settings: `_config.yml`; theme/navigation: `_config.async.yml`
 
-The resume intentionally covers experience through Universe Action Limited (UNAL),
-ending 10 April 2026. Do not add subsequent employment without explicit instruction.
+The current Web3 role uses an approved, anonymized description. Keep the employer,
+start date, internal systems, and business-specific details undisclosed unless explicitly
+authorized. UNAL employment ended on 10 April 2026.
 The PDF is generated from the same rendered resume on every build.
 
 ## Validate and publish

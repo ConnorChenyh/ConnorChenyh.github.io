@@ -31,8 +31,8 @@ priority; post cards and inline article images are lazy loaded.
 
 Set a short, page-specific `description` in front matter. Use factual project
 summaries before long implementation details. Keep the original publication dates;
-use `updated` only when intentionally recording a content update. The resume is a
-historical career snapshot through UNAL, not a claim of current employment there.
+use `updated` only when intentionally recording a content update. The current Web3 role is intentionally anonymized: retain the approved capability-level
+wording without adding employer identity, dates, or internal implementation details.
 
 The sitemap plugin generates `sitemap.xml`; `robots.txt` references it. The theme
 provides Open Graph/Twitter metadata and the site hook adds a canonical URL.
