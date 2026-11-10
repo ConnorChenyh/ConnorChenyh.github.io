@@ -30,7 +30,9 @@ for (const name of ['index.html','resume/index.html','projects/index.html','2025
   assert.doesNotMatch(html, /user-scalable=0/);
 }
 const resume = await readFile(path.join(root,'resume/index.html'),'utf8');
-assert(resume.replaceAll('&#x2F;', '/').includes('10/2025 – 10 Apr 2026'), 'UNAL end date');
+assert(resume.replaceAll('&#x2F;', '/').includes('10/2025 – 04/2026'), 'UNAL end date');
+assert(resume.replaceAll('&#x2F;', '/').includes('04/2026 – Present'), 'Current role dates');
+assert.match(resume, /Mastermind Asia Limited/);
 assert.match(resume, /downloads\/Connor-Chen-Resume.pdf/);
 const pdf = await readFile(path.join(root,'downloads/Connor-Chen-Resume.pdf'));
 assert.equal(pdf.subarray(0,5).toString(), '%PDF-');

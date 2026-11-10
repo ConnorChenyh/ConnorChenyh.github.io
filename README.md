@@ -26,9 +26,9 @@ installed Chromium executable. Linux CI installs Chromium and its OS dependencie
 - Project overview: `source/projects/index.md`
 - Site settings: `_config.yml`; theme/navigation: `_config.async.yml`
 
-The current Web3 role uses an approved, anonymized description. Keep the employer,
-start date, internal systems, and business-specific details undisclosed unless explicitly
-authorized. UNAL employment ended on 10 April 2026.
+The current Web3 role uses an approved description: Mastermind Asia Limited,
+04/2026 – Present. UNAL is listed as 10/2025 – 04/2026. Keep internal systems and
+business-specific details undisclosed unless explicitly authorized.
 The PDF is generated from the same rendered resume on every build.
 
 ## Validate and publish
