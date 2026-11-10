@@ -5,21 +5,24 @@ theme:
 language: en
 
 favicon:
-  logo: /images/singer.png
-  dark_logo: /images/singer.png
-  icon16: /images/singer.png
-  icon32: /images/singer.png
+  logo: /images/logo.webp
+  dark_logo: /images/logo.webp
+  icon16: /images/favicon-16.png
+  icon32: /images/favicon-32.png
   visibilitychange: true
-  hidden: /images/singer.png
+  hidden: /images/logo.webp
   show_text: Welcome back.
   hide_text: See you soon.
 
 banner:
+  default:
+    bgurl: /images/banner.webp
+    banner_text: Resume & Projects
   index:
     type: img
-    bgurl: '/images/banner.JPG'
-    banner_title: Sometimes ever,<br>sometimes never.
-    banner_text: Glad to meet you.
+    bgurl: '/images/banner.webp'
+    banner_title: Connor Chen<br>Java Developer
+    banner_text: Java · Spring Boot · Distributed Systems
 
 user:
   name: Connor Chen
@@ -27,8 +30,8 @@ user:
   last_name: Connor
   email: cyhnmb@gmail.com
   domain: https://connorchenyh.github.io
-  avatar: /images/avatar.jpg
-  description: This is my personal blog. I will share my thoughts and experiences here.
+  avatar: /images/avatar.webp
+  describe: Java developer in Hong Kong. Explore my resume and backend engineering projects.
 
 sidebar:
   social: # 社交地址
@@ -51,3 +54,28 @@ footer:
     enable: true
     prefix: footer.tips
     start_time: 12/21/2025 11:33:00
+# Keep core navigation accessible on desktop and mobile.
+top_bars:
+  - title: Home
+    url: /
+  - title: Resume
+    url: /resume/
+  - title: Projects
+    url: /projects/
+  - title: GitHub
+    url: https://github.com/ConnorChenyh
+  - title: Contact
+    url: mailto:cyhnmb@gmail.com
+
+lazyload:
+  enable: true
+
+toc:
+  enable: true
+  max_depth: 3
+
+layout:
+  page_index: async/home
+
+open_graph:
+  image: /images/resume_for_cover.webp

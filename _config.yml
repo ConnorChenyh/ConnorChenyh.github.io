@@ -4,8 +4,8 @@
 
 # Site
 title: Connor Chen
-subtitle: 'Personal Blog'
-description: 'A Java Developer''s Blog'
+subtitle: 'Java Developer · Resume & Projects'
+description: 'Connor Chen, Java developer in Hong Kong. Resume and project case studies in Spring Boot, microservices, and backend engineering.'
 keywords: 'Java, Spring Boot, Spring Cloud, Maven, Git, GitHub, Docker, Kubernetes'
 author: Connor Chen
 language: en
@@ -80,7 +80,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -103,10 +103,5 @@ theme: async
 deploy:
   type: ''
 
-# Mermaid diagrams
-mermaid:
-  enable: true
-  # 在文章中使用 ```mermaid 代码块
-  version: 'latest'
-  theme: default
-  cdn: https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+# Stable build metadata: content dates come from front matter.

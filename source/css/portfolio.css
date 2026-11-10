@@ -1,0 +1,28 @@
+.portfolio-intro p { line-height: 1.7; margin: 1rem 0; }
+.resume-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+.resume-actions .trm-btn { border: 0; cursor: pointer; background: #626d12; color: #fff; }
+.resume-actions .trm-btn:hover { background: #4f590d; color: #fff; }
+.mermaid { overflow-x: auto; background: #fff; border-radius: 8px; padding: 12px; }
+.mermaid svg { height: auto; }
+a:focus-visible, button:focus-visible { outline: 3px solid #2a85ff; outline-offset: 4px; }
+@media print {
+  @page { size: A4; margin: 15mm; }
+  html, body, .trm-app-frame, #trm-scroll-container, .trm-content-start, .trm-content, .trm-card { background: white !important; color: #111 !important; margin: 0 !important; padding: 0 !important; box-shadow: none !important; opacity: 1 !important; transform: none !important; overflow: visible !important; height: auto !important; }
+  .trm-top-bar, .trm-banner, .trm-page-sidebar, .trm-post-info, .trm-footer, footer, .footer-divider, .resume-actions, .trm-fixed-container, .trm-page-preloader, .trm-mode-swich-animation, .trm-post-next-prev, #trm-toc { display: none !important; }
+  .container, .row, .trm-page-content { display: block !important; width: 100% !important; max-width: none !important; padding: 0 !important; margin: 0 !important; }
+  body::before, .trm-post-info.row, .trm-post-next-prev.row, .trm-preloader, .trm-mode-swich-animation-frame { display: none !important; }
+  #article-container { font: 10pt/1.4 Arial, sans-serif; }
+  #article-container h1 { font-size: 22pt; }
+  #article-container h2 { font-size: 14pt; break-after: avoid; }
+  #article-container h3 { font-size: 11pt; break-after: avoid; }
+  #article-container p, #article-container li { color: #111 !important; }
+  a { color: #111 !important; text-decoration: none; }
+  pre, blockquote, li { break-inside: avoid; }
+}
+/* Preserve English words on narrow screens instead of the theme's break-all. */
+.trm-publication { word-break: normal; overflow-wrap: anywhere; }
+.trm-publication h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+.trm-publication p, .trm-publication li { word-break: normal; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0s !important; animation-duration: 0s !important; }
+}
