@@ -24,7 +24,7 @@
     "hexo-renderer-marked": "^7.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-async": "^2.2.7",
-    "mermaid": "^11.12.2"
+    "mermaid": "^12.3.0"
   },
   "devDependencies": {
     "playwright": "1.65.0"
